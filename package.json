@@ -1,0 +1,29 @@
+{
+  "name": "atimetowait",
+  "version": "0.1.5",
+  "main": "src/index.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "Alex Cadogan",
+  "license": "MIT",
+  "bugs": {
+    "url": "atimetowait@gmail.com"
+  },
+  "homepage": "https://yapperofwords.com",
+
+  "files": [
+    "src/index.css",
+    "src/reset.css",
+    "src/index.js",
+    "LICENSE",
+    "README.md"
+  ]
+}
