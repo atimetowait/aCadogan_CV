@@ -223,7 +223,7 @@ details :last-child {
 }
 
 pre {
-  white-space: pre;
+  white-space: pre-wrap;
   overflow-x: auto;
   margin: var(--line-height) 0;
   overflow-y: hidden;
