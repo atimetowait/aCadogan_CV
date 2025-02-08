@@ -223,9 +223,10 @@ details :last-child {
 }
 
 pre {
+  :hover,:focus { width: min-content; }
   white-space: pre-wrap;
   overflow-x: auto;
-  margin: var(--line-height) 0;
+  margin: var(--line-height) 4;
   overflow-y: hidden;
 }
 figure pre {
