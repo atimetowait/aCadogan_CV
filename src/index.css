@@ -1,15 +1,16 @@
-@import url('https://fonts.cdnfonts.com/css/jetbrains-mono-2');
+
+@import url('https://fonts.cdnfonts.com/css/geist-mono');
 
 :root {
-  --font-family: "JetBrains Mono", monospace;
-  --line-height: 1.20rem;
-  --border-thickness: 2px;
-  --text-color: #000;
+  --font-family: 'Geist Mono', sans-serif;
+  --line-height: 1.1rem;
+  --border-thickness:.1px;
+  --text-color: #000000;
   --text-color-alt: #666;
   --background-color: #fff;
   --background-color-alt: #eee;
 
-  --font-weight-normal: 500;
+  --font-weight-normal: 400;
   --font-weight-medium: 600;
   --font-weight-bold: 800;
 
@@ -79,7 +80,7 @@ h1 {
   font-size: 2rem;
   line-height: calc(2 * var(--line-height));
   margin-bottom: calc(var(--line-height) * 2);
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 h2 {
   font-size: 1rem;
